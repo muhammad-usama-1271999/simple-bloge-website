@@ -31,16 +31,16 @@ export default function Home() {
       <h2 className="lg:text-4xl text-xl font-extrabold text-blue-500 text-center">OUR EXPERIENCE</h2>
       <p className="lg:text-xl text-sm text-blue-500 text-center mt-10">
         introduced to hands-on projects that teach practical applications of coding concepts.
-        The environment is dynamic and collaborative, with mentors and peers offering guidance, support, and inspiration.
-        Coding academies often focus on real-world skills, teaching languages like JavaScript, Python, and frameworks like React, ensuring you're industry-ready.</p>
+        The environment is dynamic and collaborative, with mentors and peers offering guidance{","} support{","} and inspiration.
+        Coding academies often focus on real-world skills{","} teaching languages like JavaScript{","} Python and frameworks like React{","} ensuring you{"'"}re industry-ready.</p>
       <p className="lg:text-xl text-sm text-blue-500 text-center mt-10">
-        The experience includes solving challenging problems, debugging, and building complete applications,
-        boosting confidence with every success. You'll work on capstone projects, participate in hackathons, and build a portfolio that showcases your expertise.
-        The fast-paced, intensive learning keeps you motivated, while regular feedback ensures steady progress.</p>
+        The experience includes solving challenging problems{","} debugging{","} and building complete applications{","}
+        boosting confidence with every success. You{"'"}ll work on capstone projects{","} participate in hackathons{","} and build a portfolio that showcases your expertise.
+        The fast-paced{","} intensive learning keeps you motivated{","} while regular feedback ensures steady progress.</p>
       <p className="lg:text-xl text-sm text-blue-500 text-center mt-10">
-        Beyond technical skills, coding academies emphasize teamwork, time management, and adaptability.
-        Networking opportunities, guest lectures, and job placement services connect you with industry professionals.
-        By the end, you're not just a coder—you’re ready to innovate, create, and excel in the tech world.</p>
+        Beyond technical skills{","} coding academies emphasize teamwork{","} time management{","} and adaptability.
+        Networking opportunities, guest lectures{","} and job placement services connect you with industry professionals.
+        By the end{","} you{"'"}re not just a coder—you{"'"}re ready to innovate{","} create{","} and excel in the tech world.</p>
     </div>
     <div id="courses" className="mx-4 py-5 lg:py-24">
     <h2 className="lg:text-4xl text-xl font-extrabold text-blue-500 text-center">OUR COURSES</h2>
@@ -48,19 +48,19 @@ export default function Home() {
         <div className="lg:w-[400px] w-[200px] bg-white pb-4 rounded-md">
           <Image src={image1} alt="html logo image" className=""/>
           <h3 className="lg:text-xl text-base font-semibold text-center text-blue-500 mt-3">Html course</h3>
-          <p className="lg:text-base text-xs text-blue-400 m-2">HTML is a markup language used to create and structure web pages, defining elements like text, links, and images...</p>
+          <p className="lg:text-base text-xs text-blue-400 m-2">HTML is a markup language used to create and structure web pages, defining elements like text{","} links{","} and images...</p>
           <Link href={"/posts/html"} className="text-blue-400 lg:text-base text-xs font-semibold border-b border-blue-400 mx-2">read more</Link>
         </div>
         <div className="lg:w-[400px] w-[200px] bg-white pb-4 rounded-md">
           <Image src={image2} alt="css logo image" className="lg:w-[400px] lg:h-[400px]  "/>
           <h3 className="lg:text-xl tex-base font-semibold text-center text-blue-500 mt-3">CSS course</h3>
-          <p className="lg:text-base text-xs text-blue-400 m-2">CSS is a stylesheet language used to design web pages, controlling layout, colors, and fonts for better visuals...</p>
+          <p className="lg:text-base text-xs text-blue-400 m-2">CSS is a stylesheet language used to design web pages{","} controlling layout{","} colors{","} and fonts for better visuals...</p>
           <Link href={"/posts/css"} className="text-blue-400 lg:text-base text-xs font-semibold border-b border-blue-400 mx-2">read more</Link>
         </div>
         <div className="lg:w-[400px] w-[200px] bg-white pb-4 rounded-md">
           <Image src={image3} alt="javascript logo image" className="lg:w-[400px] lg:h-[400px]"/>
           <h3 className="lg:text-xl text-base font-semibold text-center text-blue-500 mt-3">JavaScript course</h3>
-          <p className=" lg;text-base text-xs text-blue-400 m-2">JavaScript is a dynamic programming language for creating interactive web content, enhancing functionality and design...</p>
+          <p className=" lg;text-base text-xs text-blue-400 m-2">JavaScript is a dynamic programming language for creating interactive web content{","} enhancing functionality and design...</p>
           <Link href={"/posts/javascript"} className="text-blue-400 lg:text-base text-xs font-semibold border-b border-blue-400 mx-2">read more</Link>
         </div>
       </div>
@@ -68,19 +68,19 @@ export default function Home() {
         <div className="lg:w-[400px] w-[200px] bg-white pb-4 rounded-md">
           <Image src={image4} alt="react.js logo image" className="lg:w-[400px] lg:h-[400px]"/>
           <h3 className="lg:text-xl text-base font-semibold text-center text-blue-500 mt-3">React.js course</h3>
-          <p className="lg:text-base text-xs text-blue-400 m-2">React.js is a JavaScript library for building user interfaces, enabling efficient rendering and component-based design...</p>
+          <p className="lg:text-base text-xs text-blue-400 m-2">React.js is a JavaScript library for building user interfaces{","} enabling efficient rendering and component-based design...</p>
           <Link href={"/posts/typescript"} className="text-blue-400 lg:text-base text-xs font-semibold border-b border-blue-400 mx-2">read more</Link>
         </div>
         <div className="lg:w-[400px] w-[200px] bg-white pb-4 rounded-md">
           <Image src={image5} alt="node.js logo image" className="lg:w-[400px] lg:h-[400px] "/>
           <h3 className="lg:text-xl text-base font-semibold text-center text-blue-500 mt-3">Node.js course</h3>
-          <p className="lg:text-base text-xs text-blue-400 m-2">Node.js is a JavaScript runtime for building scalable, server-side applications, enabling fast and efficient coding...</p>
+          <p className="lg:text-base text-xs text-blue-400 m-2">Node.js is a JavaScript runtime for building scalable{","} server-side applications{","} enabling fast and efficient coding...</p>
           <Link href={"/posts/react.js"} className="text-blue-400 lg:text-base text-xs font-semibold border-b border-blue-400 mx-2">read more</Link>
         </div>
         <div className="lg:w-[400px] w-[200px] bg-white pb-4 rounded-md">
           <Image src={image6} alt="next.js logo image" className="lg:w-[400px] lg:h-[400px]"/>
           <h3 className="lg:text-xl text-base font-semibold text-center text-blue-500 mt-3">Next.js course</h3>
-          <p className="lg:text-base text-xs text-blue-400 m-2">Next.js is a React framework for building fast web applications with features like SSR, API routes, and routing...</p>
+          <p className="lg:text-base text-xs text-blue-400 m-2">Next.js is a React framework for building fast web applications with features like SSR{","} API routes{","} and routing...</p>
           <Link href={"/posts/next.js"} className="text-blue-400 lg:text-base text-xs font-semibold border-b border-blue-400 mx-2">read more</Link>
         </div>
       </div>
